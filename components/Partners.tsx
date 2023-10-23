@@ -1,17 +1,16 @@
-"use client"
 
 import { partners } from '@/constants'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css"
 const Partners = () => {
 
 
-    useEffect(() => {
+    if (typeof document !== 'undefined') {
         Aos.init({
             once: true,
         });
-    }, [])
+    }
 
 
     return (

@@ -1,18 +1,16 @@
-"use client"
 import Member from './Member'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css"
 
 const Team = () => {
 
-    useEffect(() => {
+    if (typeof document !== 'undefined') {
         Aos.init({
             once: true,
         });
-    }, [])
+    }
 
-    
 
     return (
         <div className='team pt-5 pb-5'>
