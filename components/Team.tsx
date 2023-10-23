@@ -4,7 +4,7 @@ import React from 'react'
 const Team = () => {
 
     return (
-        <div className='team pt-5 pb-5'>
+        <div className='team padding-section'>
             <div className="max-width padding-x padding-y">
                 <div className="title" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <h1 className='text-[35px] font-semibold text-center text-blackCustomColor'>Our Team</h1>

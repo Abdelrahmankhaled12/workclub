@@ -5,7 +5,7 @@ import ButtonCustom from './ButtonCustom'
 const Features = () => {
 
   return (
-    <div className='pt-5 pb-5'>
+    <div className='padding-section'>
       <div className="max-width padding-x padding-y">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center mt-5">
           <img src="/culture.png" alt="" className='mx-auto' data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000" />

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { footerLinks } from "@/constants";
 
 const Footer = () => (
-  <footer className='pt-[30px] pb-[20px]'>
+  <footer className='padding-section'>
     <div className="max-width padding-x padding-y">
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:justify-items-center gap-5'>
         <h2 className=''>

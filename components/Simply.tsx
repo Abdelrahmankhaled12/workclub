@@ -4,7 +4,7 @@ const Simply = () => {
 
 
   return (
-    <div className='pt-[50px] pb-[50px]'>
+    <div className='padding-section'>
       <div className="max-width padding-x padding-y">
         <div className="grid grid-cols-1 lg:grid-cols-2  justify-center mt-5">
           <div className="text order-2 lg:order-1" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
