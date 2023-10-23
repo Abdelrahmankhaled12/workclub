@@ -1,17 +1,8 @@
 
 import React from 'react'
 import ButtonCustom from './ButtonCustom'
-import Aos from "aos";
-import "aos/dist/aos.css"
 
 const Features = () => {
-
-  if (typeof document !== 'undefined') {
-    Aos.init({
-      once: true,
-    });
-  }
-
 
   return (
     <div className='pt-5 pb-5'>

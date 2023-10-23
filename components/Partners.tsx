@@ -1,17 +1,7 @@
 
 import { partners } from '@/constants'
 import React from 'react'
-import Aos from "aos";
-import "aos/dist/aos.css"
 const Partners = () => {
-
-
-    if (typeof document !== 'undefined') {
-        Aos.init({
-            once: true,
-        });
-    }
-
 
     return (
         <div className='partner' data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">

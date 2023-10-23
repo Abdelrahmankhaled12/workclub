@@ -1,17 +1,8 @@
 
 import React from 'react'
 import ButtonCustom from './ButtonCustom'
-import Aos from "aos";
-import "aos/dist/aos.css"
 
 const Subscribers = () => {
-
-  if (typeof document !== 'undefined') {
-    Aos.init({
-      once: true,
-    });
-  }
-
   return (
     <div className='pt-[35px] pb-[35px] bg-greenCustomColor text-white' data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
       <div className="max-width padding-x padding-y">

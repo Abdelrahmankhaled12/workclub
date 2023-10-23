@@ -1,16 +1,7 @@
 import Member from './Member'
 import React from 'react'
-import Aos from "aos";
-import "aos/dist/aos.css"
 
 const Team = () => {
-
-    if (typeof document !== 'undefined') {
-        Aos.init({
-            once: true,
-        });
-    }
-
 
     return (
         <div className='team pt-5 pb-5'>

@@ -1,5 +1,6 @@
+"use client"
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import ButtonCustom from './ButtonCustom'
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -7,11 +8,11 @@ import "aos/dist/aos.css"
 
 const Hero = () => {
 
-    if (typeof document !== 'undefined') {
+    useEffect(() => {
         Aos.init({
             once: true,
         });
-    }
+    }, [])
 
 
     return (
