@@ -13,7 +13,7 @@ const Simply = () => {
               <div className="flex justify-evenly items-center bg-[#38761D] w-[100%] sm:w-[450px] sm:mx-auto lg:ms-0 h-[150px] rounded-[8px] text-white">
                 <img src="/self-service.png" alt="" className='w-[40px] h-[40px]' />
                 <div className="text">
-                  <h3 className='text-[25px] font-semibold'>HR</h3>
+                  <p className='text-[25px] font-semibold'>HR</p>
                   <ul className='list-disc pl-[22px] space-y-1'>
                     <li className='text-[14px]'>Connect your apps with our plugin </li>
                     <li className='text-[14px]'>Find the workspace that suit you</li>
@@ -25,7 +25,7 @@ const Simply = () => {
               <div className="flex justify-evenly items-center bg-[#F4F7F6] w-[100%] sm:w-[450px] sm:mx-auto lg:ms-0 h-[150px] rounded-[8px] text-blueCustomColor">
                 <img src="/manager.png" alt="" className='w-[40px] h-[40px]' />
                 <div className="text">
-                  <h3 className='text-[25px] font-semibold'>Managers</h3>
+                  <p className='text-[25px] font-semibold'>Managers</p>
                   <ul className='list-disc pl-[22px] space-y-1'>
                     <li className='text-[14px]'>Connect your apps with our plugin </li>
                     <li className='text-[14px]'>Find the workspace that suit you</li>
@@ -37,7 +37,7 @@ const Simply = () => {
               <div className="flex justify-evenly items-center bg-[#F4F7F6] w-[100%] sm:w-[450px] sm:mx-auto lg:ms-0 h-[150px] rounded-[8px] text-blueCustomColor">
                 <img src="/employee.png" alt="" className='w-[40px] h-[40px]' />
                 <div className="text">
-                  <h3 className='text-[25px] font-semibold'>Employers</h3>
+                  <p className='text-[25px] font-semibold'>Employers</p>
                   <ul className='list-disc pl-[22px] space-y-1'>
                     <li className='text-[14px]'>Connect your apps with our plugin </li>
                     <li className='text-[14px]'>Find the workspace that suit you</li>
