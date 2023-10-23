@@ -47,15 +47,15 @@ const Header = () => {
                             />
                         </Link>
                         <div className="flex items-center">
-                            <ul className='hidden space-x-[35px] me-8  md:flex'>
+                            <div className='hidden space-x-[35px] me-8  md:flex'>
                                 {header_links.map((link) => (
-                                    <li className='text-[#000000] text-[16px] duration-300 hover:tracking-[1.4px]' key={link.title}>
+                                    <p className='text-[#000000] text-[16px] duration-300 hover:tracking-[1.4px]' key={link.title}>
                                         <Link href={link.href}>
                                             {link.title}
                                         </Link>
-                                    </li>
+                                    </p>
                                 ))}
-                            </ul>
+                            </div>
                             <div className="hidden md:block">
                                 <ButtonCustom />
                             </div>
@@ -70,16 +70,16 @@ const Header = () => {
                 <div className="p-5 cursor-pointer" onClick={() => mobileMenuFunction()}>
                     <img src="/close.png" alt="" className='ml-auto' />
                 </div>
-                <ul className='flex-center flex-col space-y-5 relative'>
+                <div className='flex-center flex-col space-y-5 relative'>
                     {header_links.map((link) => (
-                        <li className='text-[#000000] text-[16px] duration-300 hover:tracking-[1.4px]' key={link.title}>
+                        <p className='text-[#000000] text-[16px] duration-300 hover:tracking-[1.4px]' key={link.title}>
                             <Link href={link.href}>
                                 {link.title}
                             </Link>
-                        </li>
+                        </p>
                     ))}
                     <ButtonCustom />
-                </ul>
+                </div>
             </div>
         </>
 
