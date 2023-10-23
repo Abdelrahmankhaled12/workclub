@@ -33,7 +33,7 @@ const ButtonTop = () => {
 
 
     return (
-        <button onClick={handleButtonClick} className={`${show} text-white w-[35px] h-[35px] fixed right-[30px] bottom-[20px] border-[1px] border-solid border-blueCustomColor bg-blueCustomColor p-[5px] rounded-[5px] duration-300 hover:bg-white hover:text-blueCustomColor`}>
+        <button aria-label="top scroll" onClick={handleButtonClick} className={`${show} text-white w-[35px] h-[35px] fixed right-[30px] bottom-[20px] border-[1px] border-solid border-blueCustomColor bg-blueCustomColor p-[5px] rounded-[5px] duration-300 hover:bg-white hover:text-blueCustomColor`}>
             <FontAwesomeIcon icon={faArrowUp} className='absolute w-[15px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]' />
         </button>
     )
